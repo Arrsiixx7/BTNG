@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BTNG Store - Toko Online Sederhana</title>
+        <!-- Hubungkan ke file CSS eksternal -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- Google Fonts Poppins (seperti materi tipografi di slide) -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-logo">
+                <span class="logo-text">
+                    BTNG
+                    <span>Store</span>
+                </span>
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#hero">Promo</a></li>
+                <li><a href="#gallery">Katalog</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+
+            <div class="nav-cta">
+                <button class="btn-nav">Keranjang (3)</button>
+            </div>
+        </nav>
+
+        <div class="container" id="home">
+            <section class="hero" id="hero">
+                <div class="badge-promo">DISKON HINGGA 50% 🔥</div>
+
+                <div class="hero-content">
+                    <span class="hero-subtitle">Koleksi Spesial Pekan Ini</span>
+                    <h1 class="hero-title">
+                        Tampil Keren & Percaya Diri dengan Produk Berkualitas
+                    </h1>
+                    <p class="hero-desc">
+                        Temukan tren fashion & aksesoris terbaik untuk gaya
+                        harianmu. Dapatkan penawaran terbatas dengan harga
+                        terbaik dan gratis ongkir ke seluruh Indonesia!
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#gallery" class="btn-primary">
+                            Belanja Sekarang
+                        </a>
+                        <a href="#gallery" class="btn-outline">Lihat Katalog</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gallery-section" id="gallery">
+                <div class="section-title">
+                    <h2>Galeri Produk Pilihan</h2>
+                    <p>Pilihan terpopuler minggu ini khusus untukmu</p>
+                </div>
+
+                <div class="gallery">
+                    <div class="product-card">
+                        <div class="product-badge">Best Seller</div>
+                        <div class="product-image-box">
+                            <svg
+                                class="product-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M3.5 15.5l3.5-3.5 4 4 7-7 2.5 2.5"
+                                ></path>
+                                <path
+                                    d="M4 17h16a2 2 0 0 1 2 2v1H2v-1a2 2 0 0 1 2-2z"
+                                ></path>
+                                <circle cx="9" cy="13" r="1.5"></circle>
+                                <path d="M14 9l1 1"></path>
+                            </svg>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Sepatu Sneaker</span>
+                            <h3 class="product-name">Urban Runner Pro</h3>
+                            <p class="product-desc">
+                                Sepatu kasual ringan dan empuk untuk aktivitas
+                                seharian.
+                            </p>
+                            <div class="product-footer">
+                                <span class="price">Rp 349.000</span>
+                                <button class="btn-buy">Beli</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image-box">
+                            <svg
+                                class="product-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <circle cx="12" cy="12" r="7"></circle>
+                                <polyline
+                                    points="12 9 12 12 13.5 13.5"
+                                ></polyline>
+                                <path
+                                    d="M16.51 17.35l-.85 4.65H8.34l-.85-4.65"
+                                ></path>
+                                <path
+                                    d="M16.51 6.65L15.66 2H8.34L7.49 6.65"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Aksesoris</span>
+                            <h3 class="product-name">Classic Chrono Watch</h3>
+                            <p class="product-desc">
+                                Jam tangan elegan berbalut strap kulit asli
+                                tahan air.
+                            </p>
+                            <div class="product-footer">
+                                <span class="price">Rp 499.000</span>
+                                <button class="btn-buy">Beli</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-badge new">Baru</div>
+                        <div class="product-image-box">
+                            <svg
+                                class="product-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M6 20h12a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2z"
+                                ></path>
+                                <path d="M9 6V4a3 3 0 0 1 6 0v2"></path>
+                                <line x1="12" y1="11" x2="12" y2="15"></line>
+                            </svg>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Tas & Ransel</span>
+                            <h3 class="product-name">Explorer Backpack 20L</h3>
+                            <p class="product-desc">
+                                Tas ransel anti-air dengan kompartemen laptop
+                                hingga 15.6 inch.
+                            </p>
+                            <div class="product-footer">
+                                <span class="price">Rp 279.000</span>
+                                <button class="btn-buy">Beli</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image-box">
+                            <svg
+                                class="product-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path
+                                    d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a2 2 0 0 0 1.54 1.63L6 11.2V20a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-8.8l1.6-.41a2 2 0 0 0 1.54-1.63l.58-3.47a2 2 0 0 0-1.34-2.23z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Pakaian</span>
+                            <h3 class="product-name">Heavyweight Hoodie</h3>
+                            <p class="product-desc">
+                                Bahan katun fleece tebal, hangat, dan sangat
+                                nyaman dipakai.
+                            </p>
+                            <div class="product-footer">
+                                <span class="price">Rp 219.000</span>
+                                <button class="btn-buy">Beli</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image-box">
+                            <svg
+                                class="product-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <circle cx="6" cy="14" r="4"></circle>
+                                <circle cx="18" cy="14" r="4"></circle>
+                                <path d="M10 14h4"></path>
+                                <path d="M6 10l2-6"></path>
+                                <path d="M18 10l-2-6"></path>
+                            </svg>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Aksesoris</span>
+                            <h3 class="product-name">Retro Polarized Shades</h3>
+                            <p class="product-desc">
+                                Kacamata anti-UV 400 dengan frame kokoh
+                                bernuansa vintage.
+                            </p>
+                            <div class="product-footer">
+                                <span class="price">Rp 129.000</span>
+                                <button class="btn-buy">Beli</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-badge">Diskon</div>
+                        <div class="product-image-box">
+                            <svg
+                                class="product-icon"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                                <path
+                                    d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="product-info">
+                            <span class="category">Elektronik</span>
+                            <h3 class="product-name">Wireless Audio Pods</h3>
+                            <p class="product-desc">
+                                Earphone bluetooth dengan bass bertenaga dan
+                                active noise cancel.
+                            </p>
+                            <div class="product-footer">
+                                <span class="price">Rp 389.000</span>
+                                <button class="btn-buy">Beli</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer" id="contact">
+            <p>
+                &copy; 2026 BTNG Store &middot; Tugas Mini Landing Page CSS
+                &middot; DNCC 2026
+            </p>
+        </footer>
+    </body>
+</html>
