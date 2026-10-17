@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{base_url}}/tasks"
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "title":"Pert 6 BTNG",
+        "Description":"Tasks Api"
+    }
+order: 3256848674795530
